@@ -1935,7 +1935,7 @@
             var monthElement = generateMonthElement(date, month);
             var yearElement = generateYearElement(date, month);
 
-            box.find('.' + month + ' .month-name').html(monthElement + ' ' + yearElement);
+            box.find('.' + month + ' .month-name').html(yearElement + ' ' + monthElement);
             box.find('.' + month + ' tbody').html(createMonthHTML(date));
             opt[month] = date;
             updateSelectableRange();
