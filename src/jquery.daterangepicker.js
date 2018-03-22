@@ -866,7 +866,7 @@
             customShortcuts: [],
             inline: false,
             container: 'body',
-            customcalenar: '#add-time-period',
+            customCalendar: '#add-time-period',
             alwaysOpen: false,
             singleDate: false,
             lookBehind: false,
@@ -1013,7 +1013,7 @@
             box = createDom().hide();
             box.append('<div class="date-range-length-tip"></div>');
 
-            $(opt.customcalenar).append(box);
+            $(opt.customCalendar).append(box);
 
             if (!opt.inline) {
                 calcPosition();
@@ -1251,10 +1251,8 @@
 
         }
 
-// thu Custome
         function calcPosition() {
             if (!opt.inline) {
-                
             }
         }
 
